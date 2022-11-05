@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zen Antique", sans-serif;
+
+}
+
+.box-main {
+    background-color: #840211;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #E67204;
+    margin-bottom: 3rem;
+}
+
+#perguntas {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#btn_proximo {
+    background-color: #E67204;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 1rem;
+}
